@@ -1,0 +1,102 @@
+
+body{
+   background-image: url(images/aaasda\ castle.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+    margin: 0;
+}
+
+header {
+    /*background-color:brown;*/
+    height: 130px;
+    width: 50%;
+}
+
+/**************************class boxes below*************/
+.boxl{
+    text-align: left;
+    width: 33.5%;
+    height: 650px;
+    background-color:rgb(245, 242, 242);
+    float:left;
+}
+
+.boxm{
+    text-align: right;
+    width: 32%;
+    height: 650px;
+    background-color:rgb(221, 6, 6);
+    float:left;
+}
+
+.boxr{
+    text-align: right;
+    width: 33.5%;
+    height: 650px;
+    background-color:rgb(201, 195, 195);
+    float:left;
+}
+
+
+/*************************class boxes above*/
+footer{
+    background-color:rgb(211, 12, 12);
+    width: 400px;
+    height:20%;
+
+}   
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(215, 31, 31);
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(189, 17, 17);
+    color: rgb(0, 0, 0);
+  }
+
+  .left{
+    background-color: rgb(255, 252, 252);
+    width: 20%;
+    height: 500px;
+    float: left;
+  }
+
+  .middle{
+    background-color:rgb(221, 12, 12);
+    width: 60%;
+    height: 500px;
+    float: left;
+  }
+
+  .right{
+    background-color: rgb(255, 255, 249);
+    width: 20%;
+    height: 500px;
+    float: left;
+  }
